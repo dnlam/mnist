@@ -20,6 +20,6 @@ Briefly, this method finds (orthogonal) directions of maximal variation in the d
 
 ## Cubic Features
 
-In this section, we will also work with a cubic feature mapping which maps an input vector ![x=[x_1,x_2,...,x_d]  into a new feature vector ![\phi(x)], defined so that for any ![x,x' \in \mathbb{R}^d]:
+In this section, we will also work with a cubic feature mapping which maps an input vector ![x=[x_1,x_2,...,x_d]](https://latex.codecogs.com/svg.image?x=[x_1,x_2,...,x_d])  into a new feature vector ![\phi(x)](https://latex.codecogs.com/svg.image?\phi(x)), defined so that for any ![x,x' \in \mathbb{R}^d](https://latex.codecogs.com/svg.image?x,x'&space;\in&space;\mathbb{R}^d):
 
 ![\phi (x)^T \phi (x) = (x^{T}x'+1)^3](https://latex.codecogs.com/svg.image?\phi&space;(x)^T&space;\phi&space;(x)&space;=&space;(x^{T}x'&plus;1)^3)
