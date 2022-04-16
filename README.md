@@ -7,7 +7,7 @@ The MNIST database contains binary images of handwritten digits commonly used to
 # Structure of project
 - ```linear_regression.py```: where we will implement linear regression
 - ```svm.py``` where we will implement support vector machine
-- ```softmax.py`` where we will implement multinomial regression
+- ```softmax.py``` where we will implement multinomial regression
 - ```features.py``` where we will implement principal component analysis (PCA) dimensionality reduction
 - ```kernel.py``` where we will implement polynomial and Gaussian RBF kernels
 - ```main.py``` where we will use the code you write for this part of the project
@@ -20,6 +20,6 @@ Briefly, this method finds (orthogonal) directions of maximal variation in the d
 
 ## Cubic Features
 
-In this section, we will also work with a cubic feature mapping which maps an input vector $x=[x_1,x_2,...,x_d]$  into a new feature vector $\phi(x)$, defined so that for any $x,x' \in \mathbb{R}^d$:
+In this section, we will also work with a cubic feature mapping which maps an input vector ![x=[x_1,x_2,...,x_d]  into a new feature vector ![\phi(x)], defined so that for any ![x,x' \in \mathbb{R}^d]:
 
 ![\phi (x)^T \phi (x) = (x^{T}x'+1)^3](https://latex.codecogs.com/svg.image?\phi&space;(x)^T&space;\phi&space;(x)&space;=&space;(x^{T}x'&plus;1)^3)
