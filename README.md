@@ -16,7 +16,7 @@ The MNIST database contains binary images of handwritten digits commonly used to
 
 Principal Components Analysis (PCA) is the most popular method for linear dimension reduction of data and is widely used in data analysis. For an in-depth exposition see [here](https://online.stat.psu.edu/stat505/lesson/11.) 
 
-Briefly, this method finds (orthogonal) directions of maximal variation in the data. By projecting an n x d dataset X onto $k \leq d$  of these directions, we get a new dataset of lower dimension that reflects more variation in the original data than any other k-dimensional linear projection of X. By going through some linear algebra, it can be proven that these directions are equal to the k eigenvectors corresponding to the k largest eigenvalues of the covariance matrix $\widetilde{X}^T\widetilde{X}$, where $\widetilde{X}^T$  is a centered version of our original data.
+Briefly, this method finds (orthogonal) directions of maximal variation in the data. By projecting an n x d dataset X onto ![k \leq d](https://latex.codecogs.com/svg.image?k&space;\leq&space;d)  of these directions, we get a new dataset of lower dimension that reflects more variation in the original data than any other k-dimensional linear projection of X. By going through some linear algebra, it can be proven that these directions are equal to the k eigenvectors corresponding to the k largest eigenvalues of the covariance matrix ![\widetilde{X}^T\widetilde{X}](https://latex.codecogs.com/svg.image?\widetilde{X}^T\widetilde{X}), where ![\widetilde{X}^T](https://latex.codecogs.com/svg.image?\widetilde{X}^T)  is a centered version of our original data.
 
 ## Cubic Features
 
